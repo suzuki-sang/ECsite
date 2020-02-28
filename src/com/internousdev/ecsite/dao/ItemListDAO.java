@@ -27,7 +27,7 @@ public class ItemListDAO {
 				dto.setItemPrice(rs.getString("item_price"));
 				dto.setItemStock(rs.getString("item_stock"));
 				dto.setInsert_date(rs.getString("insert_date"));
-				dto.setUpdated_date(rs.getString("updated_date"));
+				dto.setUpdated_date(rs.getString("update_dated"));
 				itemInfoDTOList.add(dto);
 			}
 		} catch(Exception e) {

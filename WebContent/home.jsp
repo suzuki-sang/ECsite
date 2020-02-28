@@ -10,15 +10,7 @@
 </head>
 
 <body>
-	<div id="header">
-	<h2> CAFE</h2>
-		<ul id="nav">
-			<li><a href="#">商品検索</a></li>
-			<li><a href="#">ログイン</a></li>
-			<li><a href="#">カート</a></li>
-			<li><a href="#">アイテム一覧</a></li>
-		</ul>
-	</div>
+	<div id="header"></div>
 	<div id="main">
 		<div id="top">
 			<p>ホーム</p>

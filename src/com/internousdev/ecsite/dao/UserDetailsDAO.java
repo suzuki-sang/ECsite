@@ -25,7 +25,7 @@ public class UserDetailsDAO {
 				dto.setLoginPass(resultSet.getString("login_pass"));
 				dto.setUserName(resultSet.getString("user_name"));
 				dto.setInsert_date(resultSet.getString("insert_date"));
-				dto.setUpdated_date(resultSet.getString("updated_date"));
+				dto.setUpdated_date(resultSet.getString("update_dated"));
 			}
 		} catch(Exception e) {
 			e.printStackTrace();
